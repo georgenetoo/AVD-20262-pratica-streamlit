@@ -1,20 +1,22 @@
 # Configuração do Streamlit. Descomente e ajuste conforme o projeto avançar.
 # O tema pode ser trocado pelo menu ⋮ → Settings → Choose app theme.
+# [IA] Claude Code – identidade visual do tema clima: azul céu como destaque, fundo claro de dia
+# e azul-noite no modo escuro. O azul de destaque é o mesmo dos histogramas (COR_DESTAQUE no app.py)
 
 [theme]
 paddingTop = "0.0rem"     # espaço abaixo da barra do topo (valor entre aspas)
 # font = "sans serif"     # "sans serif", "serif" ou "monospace"
 
 [theme.light]
-primaryColor = "#c1121f"            # cor de destaque (widgets, links): mesmo vermelho dos histogramas
-backgroundColor = "#ffffff"         # fundo da página
-secondaryBackgroundColor = "#f0f2f6"  # fundo da sidebar e de widgets
-textColor = "#31333f"               # cor do texto
-borderColor = "#d5dae5"
+primaryColor = "#0277bd"              # cor de destaque (widgets, links): mesmo azul dos histogramas
+backgroundColor = "#ffffff"           # fundo da página
+secondaryBackgroundColor = "#e8f1f8"  # fundo da sidebar e de widgets: azul bem claro, de céu
+textColor = "#1b2a38"                 # cor do texto: azul-grafite
+borderColor = "#c5d6e4"
 
 [theme.dark]
-primaryColor = "#c1121f"
-backgroundColor = "#0e1117"
-secondaryBackgroundColor = "#262730"
-textColor = "#fafafa"
-borderColor = "#41444e"
+primaryColor = "#0277bd"              # mesmo azul de destaque do modo claro
+backgroundColor = "#0b1622"           # fundo azul-noite
+secondaryBackgroundColor = "#16273a"
+textColor = "#e6eef5"
+borderColor = "#2b405a"
