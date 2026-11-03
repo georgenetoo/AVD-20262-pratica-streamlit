@@ -5,6 +5,8 @@
 
 > Documento oficial assinado via gov.br, com o registro completo bloco a bloco (9 usos): `prompts/DECLARACAO_IA.pdf`.
 
+**Forma de registro (Seção 5):** Opção B – registro bloco a bloco. Os 9 usos estão detalhados no PDF; as conversas não foram anexadas (não foi utilizada a Opção A).
+
 ## Ferramenta
 
 - **Claude (claude.ai, chat web)** — modelo Claude Opus 5.5, assinatura paga. Tutor de setup e ambiente, código de exportação do dataset, elaboração dos prompts a partir do meu rascunho e das minhas especificações, depuração, transcrição/revisão ortográfica da justificativa, orientação do deploy e montagem da declaração.
